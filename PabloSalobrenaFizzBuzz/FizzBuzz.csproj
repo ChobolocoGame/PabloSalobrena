@@ -179,13 +179,12 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PruebaFizzBuzz\FizzBuzz.Core\FizzBuzz.Core.csproj">
+    <ProjectReference Include="..\..\PruebaFizzBuzz\FizzBuzz.Core\FizzBuzz.Services.csproj">
       <Project>{6A97BDF1-9B54-457E-8B05-96A6DEFB77FA}</Project>
-      <Name>FizzBuzz.Core</Name>
+      <Name>FizzBuzz.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
