@@ -22,7 +22,7 @@ namespace FizzBuzz.Controllers
         {
             return View();
         }
-
+        /*mandando el formulario por el método POST*/
         [HttpPost]
         public ActionResult Index(IndexViewModel viewModel)
         {

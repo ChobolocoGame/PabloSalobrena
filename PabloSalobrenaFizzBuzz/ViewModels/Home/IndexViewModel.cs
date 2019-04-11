@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+/*Puesto los campos como requeridos*/
 namespace FizzBuzz.ViewModel.Home
 {
     public class IndexViewModel
